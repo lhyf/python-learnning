@@ -28,9 +28,17 @@
 #     i += 1
 
 # 创建一个执行十次的循环
-i = 0
-while i < 10 :
-    i += 1
-    print(i,'hello')
-else :
-    print('else中的代码块')
+# i = 0
+# while i < 10 :
+#     i += 1
+#     print(i,'hello')
+# else :
+#     print('else中的代码块')
+#
+
+j = 1
+while j <= 520:
+    print("I love you %5.1d" % j)
+    j += 1;
+else:
+    print("you love me too.")
